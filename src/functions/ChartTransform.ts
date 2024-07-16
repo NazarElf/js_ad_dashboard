@@ -29,13 +29,12 @@ function sortFunc<T, K extends keyof T>(key: K) {
 }
 
 function getAndInsertPricePerClick(input: TableType, price: PriceMap, resTable: Array<Array<string | number>>, index: 2 | 4 | 6 | 8, type: AdType) {
-    //console.log(input, price, resTable, index, type, price[type], input.length, input[1])
     if (price[type]) {
         resTable[0].push(type)
         for (let i = 1; i < input.length; i++) {
             const row = input[i] as DataRow;
             // @ts-ignore
-            resTable[i].push(row[index] / price[type])
+            resTable[i].push(price[type] / row[index])
         }
     }
 }

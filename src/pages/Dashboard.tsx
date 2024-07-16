@@ -22,7 +22,7 @@ function Dashboard() {
 
     return (
         <div className="container mx-auto mt-10 shadow-3xl p-10 bg-slate-950/50 rounded-xl overflow-hidden">
-            <p>Dashboard</p>
+            <h2 className="text-center pb-9">Dashboard</h2>
             <div className="flex flex-col md:flex-row justify-stretch">
                 <div className="w-full md:w-[50%]" >
                     <h4 className="text-center py-3">Clicks and Views</h4>
