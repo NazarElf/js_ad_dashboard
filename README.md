@@ -14,8 +14,8 @@ Here you can find description of what is it and why.
 This is main functional page
 It shows fetched from server data as dashboard with column charts.
 
-![dashboard first image](https://github.com/NazarElf/js_ad_dashboard/about/dashboard1.png?raw=true)
-![dashboard second image](https://github.com/NazarElf/js_ad_dashboard/about/dashboard2.png?raw=true)
+![dashboard first image](https://github.com/NazarElf/js_ad_dashboard/blob/master/about/dashboard1.png?raw=true)
+![dashboard second image](https://github.com/NazarElf/js_ad_dashboard/blob/master/about/dashboard2.png?raw=true)
 
 Here you can see 3 charts and price list
 First charts shows how many times your ad was shown on different platforms.
